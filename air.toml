@@ -1,0 +1,9 @@
+root = "."            # Current directory of the project
+tmp_dir = "tmp"       # Temporary directory for compiled files
+
+[build]               # Build configuration
+  bin = "main"        # Output binary name
+  cmd = "go build -o {{.Output}} {{.Input}}"  # Build command
+  exclude = ["tmp/", "client/"]            # Exclude these folders from monitoring
+  include = ["/*.go"]                      # Include Go source files for monitoring
+  ignore = ["tmp/*"]                         # Ignore these paths when triggering rebuilds build.
