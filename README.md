@@ -54,19 +54,19 @@ Make sure the following tools are installed on your machine:
 
 ### 1.Clone the repository:
 
--git clone https://github.com/SATHIYAPRABHA120/go-and-react.git
--cd go-and-react 
+- git clone https://github.com/sathiyaprabha012/go-and-react
+- cd go-and-react 
 
 ### 2.Start the backend API server (ensure MongoDB is running):
 
--cd go-and-react
--go run main.go
+- cd go-and-react
+- go run main.go
 
 ### 3.Start the frontend development server:
 
--cd client
--npm install
--npm run dev
+- cd client
+- npm install
+- npm run dev
 
 ### 4.Access the application in your browser at: http://localhost:5173
 
@@ -74,6 +74,6 @@ Make sure the following tools are installed on your machine:
 
 ### 1.Create a .env file for the following contents (say for example) :
 
--PORT=5000
--MONGODB_URI = mongodb+srv://username:password@cluster0.6sdqxgs.mongodb.net/database_name?retryWrites=true&w=majority&appName=Cluster0
--ENV = development
+- PORT=5000
+- MONGODB_URI = mongodb+srv://username:password@cluster0.6sdqxgs.mongodb.net/database_name?retryWrites=true&w=majority&appName=Cluster0
+- ENV = development
