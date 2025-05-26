@@ -1,31 +1,29 @@
-
+# Environment variables
 .env
-node_modules
 
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
+# Node.js dependencies
+node_modules/
+
+# Go build artifacts
+*.exe
+*.out
 *.o
 *.a
 *.so
 
-# Folders
-_obj
-_test
+# Go temporary & test files
+_obj/
+_test/
 vendor/
 
-# logs
-*.log
-
-# Compiled binary files
-*.exe
-*.out
-
-# macOS specific files
+# Editor/OS-specific files
 .DS_Store
 
-# Go specific files
-# Compiled binary for packages and commands
-/bin/
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Logs
+*.log
 
-# Dependency directories (remove the comment below if you are using dep)
+# VS Code settings (optional)
+.vscode/
+
+# Build output
+/bin/
