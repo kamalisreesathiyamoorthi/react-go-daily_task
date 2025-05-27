@@ -55,11 +55,11 @@ Make sure the following tools are installed on your machine:
 ### 1.Clone the repository:
 
 - git clone [https://github.com/kamalisreesathiyamoorthi/react-go-daily_task]
-- cd go-and-react 
+- cd react-go-daily_task 
 
 ### 2.Start the backend API server (ensure MongoDB is running):
 
-- cd go-and-react
+- cd react-go-daily_task
 - go run main.go
 
 ### 3.Start the frontend development server:
@@ -68,11 +68,11 @@ Make sure the following tools are installed on your machine:
 - npm install
 - npm run dev
 
-### 4.Access the application in your browser at: http://localhost:5173
+### 4.Access the application in your browser at: [http://localhost:5173]
 
 ## 🌍 Environment Configuration
 
-### 1.Create a .env file for the following contents (say for example) :
+### 1.Create a .env file :
 
 - PORT=5000
 - MONGODB_URI = mongodb+srv://username:password@cluster0.6sdqxgs.mongodb.net/database_name?retryWrites=true&w=majority&appName=Cluster0
