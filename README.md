@@ -70,6 +70,8 @@ Make sure the following tools are installed on your machine:
 
 ### 4.Access the application in your browser at: [http://localhost:5173]
 
+---
+
 ## 🌍 Environment Configuration
 
 ### 1.Create a .env file :
