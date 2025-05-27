@@ -80,5 +80,7 @@ Make sure the following tools are installed on your machine:
 - MONGODB_URI = mongodb+srv://username:password@cluster0.6sdqxgs.mongodb.net/database_name?retryWrites=true&w=majority&appName=Cluster0
 - ENV = development
 
+---
+
 ## Video Demonstration : [Demo](https://drive.google.com/file/d/1d5KhNRTq9wJhX4zR11w50PgLr7SmBJa-/view?usp=sharing)
 
