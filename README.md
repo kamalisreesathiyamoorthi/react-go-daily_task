@@ -54,7 +54,7 @@ Make sure the following tools are installed on your machine:
 
 ### 1.Clone the repository:
 
-- git clone [https://github.com/kamalisreesathiyamoorthi/react-go-tutorial]
+- git clone [https://github.com/kamalisreesathiyamoorthi/react-go-daily_task]
 - cd go-and-react 
 
 ### 2.Start the backend API server (ensure MongoDB is running):
